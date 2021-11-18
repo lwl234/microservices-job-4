@@ -32,7 +32,7 @@
          for (var i = 0; i < jsonData.length; i++) {
         var obj = jsonData[i];
            rows += "<tr><th>" + (i+1).toString() + "</th><td>" + obj.name + "</td><td>" +
-            obj.username + "</td><td>" + obj.email + "</td><td></td></tr>";
+            obj.username + "</td><td>" + obj.email + "</td><td>" + obj.website  +  "</td></tr>";
          }
             document.getElementById("demo").innerHTML = "<thead><tr><th scope='col'>#id</th><th scope='col'>name</th><th scope='col'>username</th><th scope='col'>email</th><th scope='col'>website</th></tr></thead><tbody>" 
         + rows + "</tbody>";
